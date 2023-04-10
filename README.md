@@ -6,13 +6,13 @@ Este framework está diseñado para facilitar el desarrollo de código para robo
 3. [Uso del framework](#uso-del-framework)
 4. [Personalización y expansión](#personalización-y-expansión)
 
-## Requisitos previos {#requisitos-previos}
+## Requisitos previos
 Antes de utilizar este framework, asegúrese de haber instalado y configurado correctamente lo siguiente:
 
 * Android Studio: https://developer.android.com/studio
 * SDK de FIRST: https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki
 
-## Estructura del framework {#estructura-del-framework}
+## Estructura del framework
 El framework está organizado en varias clases que cubren distintas funcionalidades:
 
 1. Clases base
@@ -34,7 +34,7 @@ El framework está organizado en varias clases que cubren distintas funcionalida
 6. Utilidades
 	* MathUtil
 	* UnitConverter
-## Uso del framework {#uso-del-framework}
+## Uso del framework
 Para utilizar este framework, siga los siguientes pasos:
 
 1. Descargue o clone el repositorio del framework en su equipo local.
@@ -44,7 +44,7 @@ Para utilizar este framework, siga los siguientes pasos:
 5. Integre los sensores y controladores según sus necesidades.
 6. Realice pruebas y ajustes en su robot.
 
-## Personalización y expansión {#personalización-y-expansión}
+## Personalización y expansión
 Este framework está diseñado para ser flexible y fácil de adaptar a las necesidades de su equipo. Siéntase libre de personalizar y expandir las clases y funcionalidades existentes para satisfacer los requisitos de su robot y las tareas específicas que debe realizar.
 
 Algunas ideas para expandir el framework incluyen:
