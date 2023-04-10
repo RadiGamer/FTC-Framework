@@ -6,7 +6,7 @@ Este framework está diseñado para facilitar el desarrollo de código para robo
 3. [Uso del framework](#uso-del-framework)
 4. [Personalización y expansión](#personalización-y-expansión)
 
-## Requisitos previos {#requisitos-previos}
+## Requisitos previos
 Antes de utilizar este framework, asegúrese de haber instalado y configurado correctamente lo siguiente:
 
 * Android Studio: https://developer.android.com/studio
