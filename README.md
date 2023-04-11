@@ -25,9 +25,8 @@ El framework está organizado en varias clases que cubren distintas funcionalida
 	* GyroSensor
 	* DistanceSensor
 	* ColorSensor
-4. Controladores
+4. Controlador
 	* PIDController
-	* StateMachine
 5. Teleoperación y autonomía
 	* TeleOpMode
 	* AutonomousMode
