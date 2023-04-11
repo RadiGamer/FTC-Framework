@@ -6,21 +6,21 @@ import org.firstinspires.ftc.teamcode.MainClasses.RobotOpMode;
 
 @Autonomous(name = "GyroAutonomous", group = "FTC")
 public class GyroSensorAutoEXAMPLE extends RobotOpMode {
-    private GyroSensor gyroSensor;
+    private GyroSensorWrapper gyroSensorWrapper;
 
     @Override
     protected void initRobot() {
         super.initRobot();
         // Inicializar el sensor de giroscopio y calibrarlo
-        gyroSensor = new GyroSensor(this);
-        gyroSensor.calibrate();
+        gyroSensorWrapper = new GyroSensorWrapper(this);
+        gyroSensorWrapper.calibrate();
     }
 
     @Override
     protected void runRobot() {
         while (opModeIsActive()) {
             // Obtener el ángulo actual del giroscopio
-            double currentAngle = gyroSensor.getAngle();
+            double currentAngle = gyroSensorWrapper.getAngle();
 
             // Realizar acciones basadas en el ángulo del giroscopio
             // Por ejemplo, girar hasta alcanzar un ángulo específico

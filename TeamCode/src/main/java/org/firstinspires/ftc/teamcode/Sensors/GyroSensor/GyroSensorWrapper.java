@@ -2,18 +2,17 @@ package org.firstinspires.ftc.teamcode.Sensors.GyroSensor;
 
 import com.qualcomm.hardware.bosch.BNO055IMU;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
-import com.qualcomm.robotcore.hardware.HardwareMap;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class GyroSensor {
+public class GyroSensorWrapper {
     private BNO055IMU imu;
     private OpMode opMode;
     private BNO055IMU.Parameters parameters;
     private ExecutorService executor;
 
-    public GyroSensor(OpMode opMode) {
+    public GyroSensorWrapper(OpMode opMode) {
         this.opMode = opMode;
         init();
     }
